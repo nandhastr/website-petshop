@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faComment } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
-import HeroImg from "../../assets/images/hero.jpg";
+import HeroImg from "/images/hero.jpg";
 import DataUser from "./components/DataTestiUser/index.jsx";
 import Title from "../../components/common/GrandTitle/Title/index.jsx";
 

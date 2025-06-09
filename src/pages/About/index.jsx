@@ -15,7 +15,7 @@ const isDashboard = location.pathname === '/';
         <>
             <section>
                 <div className="container mx-auto flex flex-col justify-center items-center lg:grid lg:grid-cols-[1fr_2fr] gap-6">
-                    <img src="/src/assets/images/about.jpeg" className="w-full h-[50%] sm:h-[40%] md:h-[60%] lg:h-[90%]  mb-8" alt="" />
+                    <img src="/images/about.jpeg" className="w-full h-[50%] sm:h-[40%] md:h-[60%] lg:h-[90%]  mb-8" alt="" />
                     <div className="flex flex-col items-start ">
                         <Title title={"Tentang"} subtitle={"Kami Menjaga Hewan Peliharaan Anda Bahagia Sepanjang Waktu"} />
                         <p className="item-center text-gray-500 text-md md:text-lg font-semibold mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae repellat quia? Quisquam quae repellat quia? Quisquam</p>

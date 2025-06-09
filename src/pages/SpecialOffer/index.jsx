@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeroImg from "/src/assets/images/hero.jpg";
+import HeroImg from "/images/hero.jpg";
 import Title from '../../components/common/GrandTitle/Title';
 import LearnMoreBox from './../../components/common/LearnMoreBox/index';
 

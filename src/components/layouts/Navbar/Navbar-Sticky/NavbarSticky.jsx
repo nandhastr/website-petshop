@@ -49,7 +49,7 @@ const NavbarSticky = () => {
                 <div className="hidden md:grid grid-cols-[1fr_2fr_1fr] w-full h-full">
                     {/* Logo & Judul */}
                     <div className="flex justify-center items-center gap-4 w-full">
-                        <img src="/src/assets/images/logo.png" className="w-10 h-10" alt="LOGO" />
+                        <img src="/images/logo.png" className="w-10 h-10" alt="LOGO" />
                         <span className="text-2xl font-bold ">PET SHOP</span>
                     </div>
 
