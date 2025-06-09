@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+import HeroImg from "/images/logo.png";
+
 const NavbarSticky = () => {
     const [isScroll, setIsScroll] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +51,7 @@ const NavbarSticky = () => {
                 <div className="hidden md:grid grid-cols-[1fr_2fr_1fr] w-full h-full">
                     {/* Logo & Judul */}
                     <div className="flex justify-center items-center gap-4 w-full">
-                        <img src="/images/logo.png" className="w-10 h-10" alt="LOGO" />
+                        <img src={HeroImg} className="w-5 h-5 md:w-10 md:h-10" alt="LOGO" />
                         <span className="text-2xl font-bold ">PET SHOP</span>
                     </div>
 
@@ -77,7 +79,7 @@ const NavbarSticky = () => {
                 <div className="flex flex-col md:hidden w-full px-2 md:px-6 py-4 ">
                     <div className="flex ">
                         <div className="flex items-center gap-2 ms:gap-4 w-full ">
-                            <img src="/src/assets/images/logo.png" className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" alt="LOGO" />
+                            <img src={HeroImg} className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" alt="LOGO" />
                             <span className="text-md sm:text-lg md:text-2xl font-bold ">PET SHOP</span>
                         </div>
 
