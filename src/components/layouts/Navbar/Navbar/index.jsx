@@ -12,7 +12,7 @@ const Navbar = () => {
           <nav className="hidden md:block">
               <div className="grid grid-cols-3 w-[100%] border border-[#65656553]">
                   <div className="flex justify-center items-center py-2 border-l border-[#65656553]">
-                      <NavItems icon={faLocationDot} title="Location" subtitle="New York"/>
+                      <NavItems icon={faLocationDot} title="Location" subtitle="Bogor"/>
                   </div>
                   <div className="flex justify-center items-center py-2 border-l border-[#65656553]">
                       <NavItems icon={faEnvelope} title="Email" subtitle="example@gmail.com" />
