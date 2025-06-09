@@ -1,0 +1,33 @@
+@import './font-family.css';
+
+@import "tailwindcss";
+
+* {
+     font-family: "Poppins", sans-serif;
+}
+
+section{
+     margin-top: 10%;
+     margin-bottom: 10%;
+     padding-left: 5%;
+     padding-right: 5%;
+}
+
+.border-nav{
+     border-color: #21d801 !important;
+}
+
+/* Hapus scrollbar di semua elemen dengan class .no-scrollbar */
+.no-scrollbar {
+     scrollbar-width: none;        /* Firefox */
+     -ms-overflow-style: none;     /* IE 10+ */
+   }
+   
+   .no-scrollbar::-webkit-scrollbar {
+     display: none;                /* Chrome, Safari, Opera */
+   }
+   
+   .smooth-scroll {
+     scroll-behavior: smooth;
+     transition: all 2s ease-in-out;
+   }
