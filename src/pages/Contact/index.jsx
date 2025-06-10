@@ -43,7 +43,7 @@ const Contact = () => {
               <div className="container mx-auto">
                   <Title title={"Kontak"} subtitle={"Hubungi Kami Untuk Layanan Terbaik"} />
 
-                  <div className="grid grid-cols-[2fr_1fr] gap-8 mt-8 ">
+                  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-[2fr_1fr] gap-8 mt-8 ">
                       <form onSubmit={handleSendEmail} className="flex flex-col gap-4 bg-gray-100 p-8">
                           <Input type={"text"} name={"name"} placeholder={"Nama"} clasName={"w-full border border-green-200 border-opacity-50 p-4 rounded-md"} value={form.name} onChange={handleChange}/>
                           <Input type={"email"} name={"email"} placeholder={"Email"} clasName={"w-full border border-green-200 border-opacity-50 p-4 rounded-md"} value={form.email} onChange={handleChange}/>
