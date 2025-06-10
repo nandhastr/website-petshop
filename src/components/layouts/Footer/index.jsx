@@ -17,8 +17,8 @@ const Footer = () => {
     ];
     return (
         <>
-            <footer className="bg-gray-100 text-gray-600">
-                <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 py-8 px-4">
+            <footer className="bg-gray-100 text-gray-600 ">
+                <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 py-8 px-6 lg:px-0">
                     <div className="flex flex-col gap-4 ">
                         <Title title="" subtitle="Hubungi Kami" className={"font-bold text-md md:text-xl"} />
                         <div className="flex">
