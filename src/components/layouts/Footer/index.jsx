@@ -55,9 +55,9 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col gap-4">
                         <Title title="" subtitle=" Ikuti Kami" className={"font-bold text-md md:text-xl"} />
-                        <form action="" className=" flex group">
+                        <form action="" className=" flex gap-2 md:gap-2 lg:gap-4  group">
                             <input type="email" placeholder="Email" className="border border-[#7AB730] py-1 px-2 w-[100%] " />
-                            <button className="bg-[#7AB730] py-1 px-2 text-white border border-l-0 group-hover:border-l-0 group-hover:border-[#7AB730] group hover:bg-transparent group-hover:text-[#7AB730]  transition-all duration-500 ease-in-out">Subscribe</button>
+                            <button className="bg-[#7AB730] py-1 px-2 text-white border  border-[#7AB730] group-hover:border-[#7AB730] group hover:bg-transparent group-hover:text-[#7AB730]  transition-all duration-500 ease-in-out">Subscribe</button>
                         </form>
                         <h2>Ikuti Kami di:</h2>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 justify-start items-center gap-4">

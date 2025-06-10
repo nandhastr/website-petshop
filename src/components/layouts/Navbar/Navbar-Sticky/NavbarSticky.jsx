@@ -94,7 +94,7 @@ const NavbarSticky = () => {
                             {item.name}
                         </Link>
                     ))}
-                    <Link to="/kontak" className={`text-center text-[0.8rem] sm:text-sm md:text-lg  font-semibold hover:cursor-pointer hover:text-[#7AB730] transition-all duration-500 ease-in-out uppercase ${currentUrl === "/kontak" ? "text-[#7AB730] border" : "text-white bg-[#7AB730]"}`}>
+                    <Link to="/kontak" className={`text-center py-2 text-[0.8rem] sm:text-sm md:text-lg  font-semibold hover:cursor-pointer hover:text-[#7AB730] transition-all duration-500 ease-in-out uppercase ${currentUrl === "/kontak" ? "text-[#7AB730] border" : "text-white bg-[#7AB730]"}`}>
                         Kontak
                     </Link>
                 </div>
